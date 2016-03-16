@@ -17,6 +17,7 @@
 		2A6003151C97DF31000F4FB7 /* ShopCarAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6003141C97DF31000F4FB7 /* ShopCarAnimationViewController.m */; };
 		2A6003171C97E4F0000F4FB7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A6003161C97E4F0000F4FB7 /* readme.md */; };
 		2ACFFB061C99110E0003F011 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFFB051C99110E0003F011 /* MainViewController.m */; };
+		2ACFFB081C9917790003F011 /* license in Resources */ = {isa = PBXBuildFile; fileRef = 2ACFFB071C9917790003F011 /* license */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2A6003161C97E4F0000F4FB7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		2ACFFB041C99110E0003F011 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		2ACFFB051C99110E0003F011 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2ACFFB071C9917790003F011 /* license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				2A6003161C97E4F0000F4FB7 /* readme.md */,
+				2ACFFB071C9917790003F011 /* license */,
 				2A6002CF1C97C00A000F4FB7 /* ShopCarAnimation-Test */,
 				2A6002E91C97C00B000F4FB7 /* ShopCarAnimation-TestTests */,
 				2A6002F41C97C00B000F4FB7 /* ShopCarAnimation-TestUITests */,
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACFFB081C9917790003F011 /* license in Resources */,
 				2A6002E01C97C00A000F4FB7 /* LaunchScreen.storyboard in Resources */,
 				2A6002DD1C97C00A000F4FB7 /* Assets.xcassets in Resources */,
 			);
