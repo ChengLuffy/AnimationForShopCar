@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CLFShopCarAnimation"
-  s.version      = "0.0.4"
+  s.version      = "1.0.0"
   s.summary      = "购物车动画。"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ChengLuffy/AnimationForShopCar.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ChengLuffy/AnimationForShopCar.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
