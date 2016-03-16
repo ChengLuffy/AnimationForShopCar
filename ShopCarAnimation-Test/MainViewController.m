@@ -56,8 +56,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:@"jinian"];
+    cell.textLabel.text = @"点击将商品添加到购物车";
+    cell.imageView.image = [UIImage imageNamed:@"shopping"];
     return cell;
 }
 
@@ -67,6 +67,10 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     
     [self addProductsAnimation:cell.imageView dropToPoint:CGPointMake(kScreenWidth*0.75, self.view.layer.bounds.size.height - 40) isNeedNotification:YES];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 88;
 }
 
 - (UITableView *)tableView {

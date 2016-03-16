@@ -58,9 +58,9 @@
         _tabBarController = [[UITabBarController alloc] init];
         
         MainViewController *mainVC = [[MainViewController alloc] init];
-        mainVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:10];
+        mainVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:10];
         ShopCarViewController *shopCarVC = [[ShopCarViewController alloc] init];
-        shopCarVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:11];
+        shopCarVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"购物车" image:[UIImage imageNamed:@"shopCart"] selectedImage:[UIImage imageNamed:@"shopCart_r"]];
         
         _tabBarController.viewControllers = @[mainVC, shopCarVC];
     }
