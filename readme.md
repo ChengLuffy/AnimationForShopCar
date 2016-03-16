@@ -1,4 +1,4 @@
-- ##用法
+- 用法
 
 1.继承`ShopCarAnimationViewController.h`
 
