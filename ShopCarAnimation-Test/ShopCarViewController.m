@@ -24,6 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    self.tabBarItem.badgeValue = nil;
+}
+
 /*
 #pragma mark - Navigation
 

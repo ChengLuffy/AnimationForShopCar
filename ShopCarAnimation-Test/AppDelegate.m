@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "ShopCarViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) UITabBarController *tabBarController;
 
 @end
 
@@ -17,6 +21,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = self.tabBarController;
+    
     return YES;
 }
 
@@ -40,6 +51,20 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (UITabBarController *)tabBarController {
+    if (_tabBarController == nil) {
+        _tabBarController = [[UITabBarController alloc] init];
+        
+        MainViewController *mainVC = [[MainViewController alloc] init];
+        mainVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:10];
+        ShopCarViewController *shopCarVC = [[ShopCarViewController alloc] init];
+        shopCarVC.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:11];
+        
+        _tabBarController.viewControllers = @[mainVC, shopCarVC];
+    }
+    return _tabBarController;
 }
 
 @end

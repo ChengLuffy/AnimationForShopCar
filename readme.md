@@ -20,4 +20,4 @@
  ```
  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(shopCarBadgeValueAdd:) name:@"shopCarAnimationEnd" object:nil];
  ```
- 并实现相应方法，在dealloc方法里移除监听者。
+ 并实现相应方法，在dealloc方法里移除监听者。# AnimationForShopCar

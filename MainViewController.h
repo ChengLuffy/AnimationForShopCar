@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShopCarAnimationViewController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : ShopCarAnimationViewController
 
 @end
