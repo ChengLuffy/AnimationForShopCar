@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "CLFShopCarAnimation"
+  s.name         = "CLFAnimationForShopCar"
   s.version      = "0.0.2"
   s.summary      = "购物车动画。"
 
