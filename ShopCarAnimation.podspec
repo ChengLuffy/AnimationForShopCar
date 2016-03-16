@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ShopCarAnimation.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ChengLuffy/AnimationForShopCar.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = “UIKit”
+  # s.framework  = “UIKit”
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
