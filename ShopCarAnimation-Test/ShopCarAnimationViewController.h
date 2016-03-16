@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ShopCarAnimationViewController.h
 //  ShopCarAnimation-Test
 //
 //  Created by 成璐飞 on 16/3/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ShopCarAnimationViewController : UIViewController
 
 @end
-
