@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CLFShopCarAnimation"
-  s.version      = "0.1.4"
+  s.version      = "0.0.2"
   s.summary      = "购物车动画。"
 
   # This description is used to generate tags and improve search results.
