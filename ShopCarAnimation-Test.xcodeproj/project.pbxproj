@@ -13,10 +13,10 @@
 		2A6002E01C97C00A000F4FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6002DE1C97C00A000F4FB7 /* LaunchScreen.storyboard */; };
 		2A6002EB1C97C00B000F4FB7 /* ShopCarAnimation_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6002EA1C97C00B000F4FB7 /* ShopCarAnimation_TestTests.m */; };
 		2A6002F61C97C00B000F4FB7 /* ShopCarAnimation_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6002F51C97C00B000F4FB7 /* ShopCarAnimation_TestUITests.m */; };
-		2A6003081C97C0EB000F4FB7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6003071C97C0EB000F4FB7 /* MainViewController.m */; };
 		2A60030B1C97C0FB000F4FB7 /* ShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A60030A1C97C0FB000F4FB7 /* ShopCarViewController.m */; };
 		2A6003151C97DF31000F4FB7 /* ShopCarAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6003141C97DF31000F4FB7 /* ShopCarAnimationViewController.m */; };
 		2A6003171C97E4F0000F4FB7 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A6003161C97E4F0000F4FB7 /* readme.md */; };
+		2ACFFB061C99110E0003F011 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACFFB051C99110E0003F011 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,13 +50,13 @@
 		2A6002F11C97C00B000F4FB7 /* ShopCarAnimation-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShopCarAnimation-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6002F51C97C00B000F4FB7 /* ShopCarAnimation_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCarAnimation_TestUITests.m; sourceTree = "<group>"; };
 		2A6002F71C97C00B000F4FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A6003061C97C0EB000F4FB7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
-		2A6003071C97C0EB000F4FB7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		2A6003091C97C0FB000F4FB7 /* ShopCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarViewController.h; sourceTree = "<group>"; };
 		2A60030A1C97C0FB000F4FB7 /* ShopCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarViewController.m; sourceTree = "<group>"; };
 		2A6003131C97DF31000F4FB7 /* ShopCarAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarAnimationViewController.h; sourceTree = "<group>"; };
 		2A6003141C97DF31000F4FB7 /* ShopCarAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarAnimationViewController.m; sourceTree = "<group>"; };
 		2A6003161C97E4F0000F4FB7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		2ACFFB041C99110E0003F011 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2ACFFB051C99110E0003F011 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 				2A6002D41C97C00A000F4FB7 /* AppDelegate.m */,
 				2A6003131C97DF31000F4FB7 /* ShopCarAnimationViewController.h */,
 				2A6003141C97DF31000F4FB7 /* ShopCarAnimationViewController.m */,
-				2A6003061C97C0EB000F4FB7 /* MainViewController.h */,
-				2A6003071C97C0EB000F4FB7 /* MainViewController.m */,
+				2ACFFB041C99110E0003F011 /* MainViewController.h */,
+				2ACFFB051C99110E0003F011 /* MainViewController.m */,
 				2A6003091C97C0FB000F4FB7 /* ShopCarViewController.h */,
 				2A60030A1C97C0FB000F4FB7 /* ShopCarViewController.m */,
 				2A6002DC1C97C00A000F4FB7 /* Assets.xcassets */,
@@ -280,10 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6002D51C97C00A000F4FB7 /* AppDelegate.m in Sources */,
+				2ACFFB061C99110E0003F011 /* MainViewController.m in Sources */,
 				2A60030B1C97C0FB000F4FB7 /* ShopCarViewController.m in Sources */,
 				2A6003171C97E4F0000F4FB7 /* readme.md in Sources */,
 				2A6003151C97DF31000F4FB7 /* ShopCarAnimationViewController.m in Sources */,
-				2A6003081C97C0EB000F4FB7 /* MainViewController.m in Sources */,
 				2A6002D21C97C00A000F4FB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
