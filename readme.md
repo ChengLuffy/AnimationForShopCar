@@ -1,4 +1,4 @@
-- 用法
+## 用法
 
 1.继承`ShopCarAnimationViewController.h`
 
@@ -22,7 +22,7 @@
  ```
  并实现相应方法，在dealloc方法里移除监听者。
  
- - CocoaPods
+## CocoaPods
  
  ```
  pod 'CLFAnimationForShopCar', '~> 0.0.2'
