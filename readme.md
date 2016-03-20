@@ -2,7 +2,7 @@
 
 1.继承`ShopCarAnimationViewController.h`
 
-1.方法调用`- (void)addProductsAnimation:(UIImageView *)imageView dropToPoint:(CGPoint)dropToPoint isNeedNotification:(BOOL)isNeedNotification;
+2.方法调用`- (void)addProductsAnimation:(UIImageView *)imageView dropToPoint:(CGPoint)dropToPoint isNeedNotification:(BOOL)isNeedNotification;
 `
 	
 ```
