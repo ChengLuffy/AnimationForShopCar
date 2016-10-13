@@ -8,7 +8,7 @@
 
 #import "ShopCarAnimationViewController.h"
 
-@interface ShopCarAnimationViewController ()
+@interface ShopCarAnimationViewController () <CAAnimationDelegate>
 
 @property (nonatomic, strong) NSMutableArray *animationLayers;
 @property (nonatomic, assign) BOOL isNeedNotification;
